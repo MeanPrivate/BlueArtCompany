@@ -279,7 +279,7 @@ i {
 }
 
 p {
-	margin: 0 0 2em 0;
+	margin: 1em 0;
 }
 
 h1,
@@ -289,8 +289,8 @@ h4,
 h5,
 h6 {
 	color: #ffffff;
-	font-weight: bold;
-	line-height: 1.2em;
+	font-weight: 600;
+    line-height: 1em;
 }
 
 h1 a,
@@ -332,7 +332,7 @@ h1.major:after {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.2em;
 }
 
 h3 {
@@ -1955,8 +1955,8 @@ button,
 	color: #ffffff !important;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1em;
-	font-weight: bold;
+	font-size: 1.2em;
+	font-weight: 500;
 	height: calc(3.75em + 2px);
 	letter-spacing: 0.25em;
 	line-height: 3.65em;
@@ -3017,7 +3017,15 @@ header h6+p {
 }
 
 /* Split */
+.main {
+	margin-top:1.5em;
+    margin-bottom: 8em;
+    font-size: 0.8em;
+}
 
+.title{
+	margin-bottom: 3em;
+}
 .split {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -3369,11 +3377,11 @@ table.alt tfoot {
 }
 
 .wrapper.style1-alt {
-	background-color: #493382;
+	background-color: #082039;
 }
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	background-color: #948f80;
 }
 
 .wrapper.style2-alt {
@@ -3381,7 +3389,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-	background-color: #4e7fb7;
+	background-color: #1c7daa;
 }
 
 .wrapper.style3-alt {
