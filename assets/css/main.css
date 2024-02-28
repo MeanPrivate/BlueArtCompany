@@ -3077,10 +3077,10 @@ header h6+p {
 
 /* Split */
 .main {
-	margin-top: 2em;
-    margin-bottom: 5em;
+    margin-top: 5.5em;
+    margin-bottom: 3em;
     font-size: 0.8em;
-	scale: 100%;
+    scale: 100%;
     float: right;
 }
 
@@ -3937,21 +3937,21 @@ body.is-ie #sidebar>.inner {
 
 #sidebar nav a {
 	-moz-transition: color 0.2s ease;
-	-webkit-transition: color 0.2s ease;
-	-ms-transition: color 0.2s ease;
-	transition: color 0.2s ease;
-	border: 0;
-	color: #a0bdc6;
-	display: block;
-	font-size: 1em;
-	font-weight: bold;
-	letter-spacing: 0.25em;
-	line-height: 1.4em;
-	outline: 0;
-	padding: 1.35em 0;
-	position: relative;
-	text-decoration: none;
-	text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    border: 0;
+    color: #a0bdc6;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    line-height: 1.2em;
+    outline: 0;
+    padding: 1.1em 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #sidebar nav a:before,
