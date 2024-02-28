@@ -336,7 +336,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.45em;
 }
 
 h4 {
@@ -2912,6 +2912,7 @@ ul.actions.fit.stacked {
 ul.contact {
 	list-style: none;
 	padding: 0;
+	font-size: 110%;
 }
 
 ul.contact>li {
@@ -3015,16 +3016,74 @@ header h6+p {
 	margin-top: -0.6em;
 	line-height: 1.5em;
 }
+/*gallary*/
+.gallery-container {
+
+	overflow: hidden;
+	position: relative;
+}
+
+.gallery {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.gallery img {
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease-in-out;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.3s;
+}
+
+.dot.active {
+	background-color: #717171;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 24px;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+}
+
+.arrow.left {
+	left: 10px;
+}
+
+.arrow.right {
+	right: 10px;
+}
 
 /* Split */
 .main {
-	margin-top:1.5em;
-    margin-bottom: 8em;
+	margin-top: 7em;
+    margin-bottom: 5em;
     font-size: 0.8em;
+	scale: 100%;
+    float: right;
 }
 
 .title{
 	margin-bottom: 3em;
+	width: 34em;
 }
 .split {
 	display: -moz-flex;
@@ -3113,6 +3172,14 @@ header h6+p {
 	.split>* {
 		margin: 3em 0 0 0;
 		padding: 3em 0 0 0;
+	}
+	.title{
+		margin-bottom: 3em;
+		width: 15em;
+	}
+	input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+		font-size: 1em;
+
 	}
 
 }
@@ -3338,9 +3405,9 @@ table.alt tfoot {
 }
 
 .wrapper>.inner {
-	padding: 8em 5em 5em 8em;
+	padding: 2em 5em 5em 8em;
 	max-width: 100%;
-	width: 75em;
+	width: 70em;
 }
 
 @media screen and (max-width: 1680px) {

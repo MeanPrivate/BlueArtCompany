@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 소개</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #999999;
+            color: #333;
+        }
+
+        header {
+            background-color: #79b2d8c5;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 55px;
+            margin-top: 1px;
+            margin-left: 15px; /* 아이콘 크기 최적화 */
+            margin-right: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 35px;
+            letter-spacing: 1px; /* 텍스트 간격 조절 */
+            margin-top: 13px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .menu-toggle {
+            cursor: pointer;
+            padding: 14px;
+            color: white;
+            background-color: #2d4b5ec5;
+            font-size: 18px;
+            display: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 27px 20px; /* 메뉴 너비 조절 */
+            transition: background-color 0.3s, color 0.4s;
+        }
+
+        nav a:hover {
+            background-color: #426881c5;
+        }
+
+        .gallery-container {
+            max-width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .gallery {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .arrow.left {
+            left: 10px;
+        }
+
+        .arrow.right {
+            right: 10px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header img {
+                scale: 0.8;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav.menu-open {
+                display: flex;
+            }
+
+            nav a {
+                width: 100%;
+                box-sizing: border-box;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="Blue Art Studio.png" alt="회사 아이콘">
+            <h1>Blue Art Studio</h1>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776; 메뉴</div>
+        <nav>
+            <a href="#section1">회사소개</a>
+            <a href="#section2">스튜디오</a>
+            <a href="#section3">갤러리</a>
+            <a href="#section4">연락처 및 오시는 길</a>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <!-- 회사소개 섹션 내용 -->
+    </section>
+
+    <section id="section2">
+        <!-- 스튜디오 및 갤러리 섹션 내용 -->
+    </section>
+
+    <section id="section3">
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="images\pic01.jpg" alt="이미지 1">
+                <img src="images\pic02.jpg" alt="이미지 1">
+                <img src="images\pic03.jpg" alt="이미지 1">
+                <img src="images\pic04.jpg" alt="이미지 1">
+                <img src="images\pic05.jpg" alt="이미지 1">
+            
+                <!-- 추가 이미지 계속... -->
+            </div>
+            <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+            <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+        </div>
+    </section>
+
+    <section id="section4">
+        <!-- 연락처 및 오시는 길 섹션 내용 -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 회사 소개 웹사이트</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('menu-open');
+        }
+
+        var currentSlide = 0;
+
+        function showSlide() {
+            var gallery = document.querySelector('.gallery');
+            var slideWidth = document.querySelector('.gallery img').clientWidth;
+            gallery.style.transform = 'translateX(' + (-slideWidth * currentSlide) + 'px)';
+        }
+
+        function nextSlide() {
+            var gallery = document.querySelector('.gallery');
+            var totalSlides = document.querySelectorAll('.gallery img').length;
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide();
+        }
+
+        function prevSlide() {
+            var gallery = document.querySelector('.gallery');
+            var totalSlides = document.querySelectorAll('.gallery img').length;
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide();
+        }
+    </script>
+
+</body>
+
+</html>
