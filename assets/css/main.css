@@ -1957,7 +1957,6 @@ button,
 	color: #ffffff !important;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.2em;
 	font-weight: 500;
 	height: calc(3.75em + 2px);
 	letter-spacing: 0.25em;
@@ -1969,7 +1968,6 @@ button,
 	text-decoration: none;
 	text-transform: uppercase;
 	white-space: nowrap;
-	margin-top: 2em;
 }
 
 input[type="submit"]:after,
@@ -3077,8 +3075,8 @@ header h6+p {
 
 /* Split */
 .main {
-    margin-top: 5.5em;
-    margin-bottom: 3em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     font-size: 0.8em;
     scale: 100%;
     float: right;
@@ -3411,7 +3409,7 @@ table.alt tfoot {
 	
 	padding: 6em 5em 5em 7em;
 	max-width: 100%;
-	width: 70em;
+	width: 90em;
 }
 
 @media screen and (max-width: 1680px) {
