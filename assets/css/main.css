@@ -293,7 +293,7 @@ i {
 
 p {
 	margin: 0.1em 0;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 h1,
@@ -348,6 +348,7 @@ h1.major:after {
 h2 {
 	font-size: 2.2em;
 }
+
 
 h3 {
 	font-size: 1.9em;
@@ -4096,7 +4097,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 @media screen and (max-width: 980px) {
