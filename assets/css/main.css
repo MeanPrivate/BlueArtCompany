@@ -250,9 +250,21 @@ textarea {
 	textarea {
 		font-size: 9pt;
 	}
+	
 
 }
 
+@media screen and (max-width: 160px) {
+
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 7pt;
+	}
+	
+
+}
 a {
 	-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 	-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
