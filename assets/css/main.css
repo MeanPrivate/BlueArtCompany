@@ -248,7 +248,7 @@ textarea {
 	input,
 	select,
 	textarea {
-		font-size: 11pt;
+		font-size: 9pt;
 	}
 
 }
@@ -3057,7 +3057,7 @@ header h6+p {
 
 .arrow {
 	position: absolute;
-	top: 71%;
+	top: 70%;
 	transform: translateY(-50%);
 	font-size: 24px;
 	color: white;
