@@ -87,7 +87,7 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
+	margin: 0 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -292,8 +292,8 @@ i {
 }
 
 p {
-	margin: 0.1em 0;
-    font-size: 1.7em;
+	margin: 0.9em 1em;
+    font-size: 1.5em;
 }
 
 h1,
@@ -302,9 +302,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: #ffffff;
+	color: #dbf2f7;
 	font-weight: 500;
-    line-height: 1.1em;
 }
 
 h1 a,
@@ -346,7 +345,7 @@ h1.major:after {
 }
 
 h2 {
-	font-size: 2.2em;
+	font-size: 5em;
 }
 
 
@@ -373,7 +372,7 @@ h6 {
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 3em;
 	}
 
 	h3 {
@@ -1955,6 +1954,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
+	
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -2812,7 +2812,7 @@ ul.actions {
 }
 
 ul.actions li {
-	padding: 0 0 0 1em;
+	margin: 0.9em 1em;
 	vertical-align: middle;
 }
 
@@ -3088,15 +3088,15 @@ header h6+p {
 
 /* Split */
 .main {
-    margin-top: 3em;
-    margin-bottom: 4em;
+    margin-top: 1em;
+    margin-bottom: 2em;
     font-size: 0.8em;
     scale: 100%;
     float: right;
 }
 
 .title{
-	margin-bottom: 3em;
+	margin: 0.9em 1em;
 	width: 34em;
 }
 .split {
@@ -3422,7 +3422,7 @@ table.alt tfoot {
 	
 	padding: 6em 5em 5em 7em;
 	max-width: 100%;
-	width: 90em;
+	width: 100em;
 }
 
 @media screen and (max-width: 1680px) {
