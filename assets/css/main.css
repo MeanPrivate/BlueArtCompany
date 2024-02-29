@@ -3020,10 +3020,12 @@ header h6+p {
 .gallery-container {
 	overflow: hidden;
 	position: relative;
+	
 }
 
 .gallery {
 	display: flex;
+	margin-top: 5em;
 	transition: transform 0.5s ease-in-out;
 }
 
@@ -3055,7 +3057,7 @@ header h6+p {
 
 .arrow {
 	position: absolute;
-	top: 50%;
+	top: 71%;
 	transform: translateY(-50%);
 	font-size: 24px;
 	color: white;
