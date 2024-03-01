@@ -21,6 +21,14 @@ span {
 
 
   .gallery-container {
-    width: 25em
+    width: 40em
+  }
+}
+
+@media screen and (max-width: 763px) {
+
+
+  .gallery-container {
+    width: 20em
   }
 }
