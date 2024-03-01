@@ -212,7 +212,7 @@ body,
 input,
 select,
 textarea {
-	color: rgba(255, 255, 255, 0.699);
+	color: rgb(255 255 255 / 78%);
 	font-family: "Noto Sans KR", sans-serif;
 	font-weight: normal;
 	line-height: 1.75;
@@ -294,7 +294,7 @@ i {
 
 p {
 	margin: 0em 1em;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 h1,
@@ -303,7 +303,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #dbf2f7;
+	color: #f3fff9;
 	font-weight: 500;
 }
 
@@ -4109,6 +4109,10 @@ body.is-preload #sidebar nav ul li {
 
 #intro p {
 	font-size: 1.2em;
+}
+
+q {
+	font-weight: 500;
 }
 
 @media screen and (max-width: 980px) {
