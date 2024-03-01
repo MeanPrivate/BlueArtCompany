@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #31245000;
+	background: #67abce
 }
 
 body.is-preload *,
@@ -3102,7 +3102,7 @@ header h6+p {
 .title {
 	margin-top: 3em;
 	margin-left: 0.7em;
-	width: 34em;
+
 }
 
 .split {
