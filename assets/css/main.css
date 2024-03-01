@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #312450;
+	background: #31245000;
 }
 
 body.is-preload *,
@@ -1968,16 +1968,16 @@ button,
 	-ms-transition: border-color 0.2s ease;
 	transition: border-color 0.2s ease;
 	background-color: transparent;
-	border: solid 1px !important;
+	border: solid 2px !important;
 	border-color: rgba(255, 255, 255, 0.15) !important;
 	border-radius: 3em;
 	color: #ffffff !important;
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 500;
-	height: calc(3.75em + 2px);
+	height: calc(3em + 1em);
 	letter-spacing: 0.25em;
-	line-height: 3.65em;
+	line-height: 3.8em;
 	outline: 0;
 	padding: 0 3em;
 	position: relative;
@@ -1985,6 +1985,7 @@ button,
 	text-decoration: none;
 	text-transform: uppercase;
 	white-space: nowrap;
+	margin-top: 1em;
 }
 
 input[type="submit"]:after,
@@ -2081,7 +2082,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-	border-color: rgba(255, 255, 255, 0.55) !important;
+	border-color: rgb(68 246 211 / 53%) !important;
 }
 
 input[type="submit"]:hover:after,
@@ -3074,7 +3075,7 @@ header h6+p {
 
 .arrow {
 	position: absolute;
-	top: 57%;
+	top: 55%;
 	transform: translateY(-50%);
 	font-size: 24px;
 	color: white;
@@ -3233,7 +3234,7 @@ body.is-ie .spotlights>section {
 	border-radius: 0;
 	display: block;
 	position: relative;
-	width: 25em;
+	width: 70em;
 }
 
 .spotlights>section>.image img {
@@ -3474,7 +3475,8 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-	background-color: #7b92a1;
+	background-color: #1d3f5c;
+
 }
 
 .wrapper.style2-alt {
