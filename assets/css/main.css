@@ -3041,6 +3041,7 @@ header h6+p {
 .gallery-container {
 	overflow: hidden;
 	position: relative;
+	width: 60em;
 
 }
 
@@ -3054,6 +3055,7 @@ header h6+p {
 	width: 100%;
 	height: 100%;
 	transition: transform 0.5s ease-in-out;
+	
 }
 
 .pagination {
@@ -3097,9 +3099,7 @@ header h6+p {
 /* Split */
 .main {
 	margin-bottom: 2em;
-	font-size: 0.8em;
-	scale: 100%;
-	float: right;
+	
 }
 
 .title {
