@@ -4099,7 +4099,7 @@ body.is-preload #sidebar nav ul li {
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 700px) {
 
 	#sidebar {
 		display: none;
@@ -4107,7 +4107,8 @@ body.is-preload #sidebar nav ul li {
 	.gallery-container {
 		overflow: hidden;
 		position: relative;
-		width: 25em;
+		width: 22em;
+		
 
 	}
 
