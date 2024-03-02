@@ -228,7 +228,7 @@ textarea {
 	textarea {
 		font-size: 13pt;
 	}
-
+	
 }
 
 @media screen and (max-width: 1280px) {
@@ -243,6 +243,7 @@ textarea {
 	gallery-container {
 		width: 20em
 	}
+	
 }
 
 @media screen and (max-width: 360px) {
@@ -2932,7 +2933,7 @@ ul.actions.fit.stacked {
 ul.contact {
 	list-style: none;
 	padding: 0;
-	font-size: 140%;
+	font-size: 120%;
 }
 
 ul.contact>li {
@@ -3103,7 +3104,7 @@ header h6+p {
 }
 
 .title {
-	margin-top: 3em;
+	margin-top: 6em;
 	margin-left: 0.7em;
 
 }
@@ -4128,7 +4129,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro p {
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 q {
@@ -4145,9 +4146,7 @@ q {
 
 @media screen and (max-width: 736px) {
 
-	#intro p {
-		font-size: 1.1em;
-	}
+	
 
 }
 
