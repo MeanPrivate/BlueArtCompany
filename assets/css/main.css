@@ -4111,6 +4111,9 @@ body.is-preload #sidebar nav ul li {
 		
 
 	}
+	ul.contact {
+		font-size: 100%;
+	}
 
 }
 
@@ -4125,7 +4128,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 q {
