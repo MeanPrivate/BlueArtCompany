@@ -219,6 +219,10 @@ textarea {
 	font-weight: 300;
 	font-size: 1.3em;
 }
+.inti{
+	font-size: large;
+
+}
 
 @media screen and (max-width: 1680px) {
 
@@ -227,6 +231,11 @@ textarea {
 	select,
 	textarea {
 		font-size: 13pt;
+	}
+	.map{
+	
+		width:100%;
+	
 	}
 	
 }
@@ -243,8 +252,8 @@ textarea {
 	gallery-container {
 		width: 20em
 	}
-	
 }
+
 
 @media screen and (max-width: 360px) {
 
@@ -254,8 +263,16 @@ textarea {
 	textarea {
 		font-size: 9pt;
 	}
+	
+	.map{
+	
+		width:65%;
+	
+	}
 
-
+	.inti{
+		font-size: 0.5em;
+	}
 }
 
 @media screen and (max-width: 160px) {
@@ -266,7 +283,11 @@ textarea {
 	textarea {
 		font-size: 7pt;
 	}
-
+	.map{
+	
+		width:55%;
+	
+	}
 
 }
 
@@ -1962,7 +1983,6 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-	font-size: 1.3em;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -3105,7 +3125,6 @@ header h6+p {
 
 .title {
 	margin-top: 6em;
-	margin-left: 0.7em;
 
 }
 
@@ -3461,7 +3480,17 @@ table.alt tfoot {
 @media screen and (max-width: 736px) {
 
 	.wrapper>.inner {
+		padding: 3em 3em 1em 3em;
+	}
+
+}
+@media screen and (max-width: 360px) {
+
+	.wrapper>.inner {
 		padding: 3em 1em 1em 1em;
+	}
+	.inti{
+		display: none;
 	}
 
 }
