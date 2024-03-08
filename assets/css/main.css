@@ -220,7 +220,7 @@ textarea {
 	font-size: 1.3em;
 }
 .inti{
-	font-size: large;
+	font-size: 0.8em;
 
 }
 
@@ -266,7 +266,7 @@ textarea {
 	
 	.map{
 	
-		width:65%;
+		width:95%;
 	
 	}
 
@@ -2935,7 +2935,7 @@ ul.actions.fit.stacked {
 	ul.actions:not(.fixed) li input[type="button"],
 	ul.actions:not(.fixed) li button,
 	ul.actions:not(.fixed) li .button {
-		width: 100%;
+	
 	}
 
 	ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3227,7 +3227,7 @@ header h6+p {
 	input[type="button"],
 	button,
 	.button {
-		font-size: 1em;
+		font-size: 0.8em;
 
 	}
 
@@ -3377,6 +3377,20 @@ body.is-preload .spotlights>section>.content>.inner {
 		padding: 3em 2em 1em 2em;
 	}
 
+	
+}
+@media screen and (max-width: 360px) {
+
+	.spotlights>section>.image {
+		height: 50vh;
+		min-height: 15em;
+	}
+
+	.spotlights>section>.content {
+		padding: 2em 5em 0.1em 0.5em;
+		scale: 90%;
+	}
+
 }
 
 /* Table */
@@ -3455,7 +3469,7 @@ table.alt tfoot {
 
 .wrapper>.inner {
 
-	padding: 1em 1em 1em 1em; 
+	padding: 3em 5em 5em 7em;
 	max-width: 100%;
 	width: 100em;
 }
@@ -3463,7 +3477,7 @@ table.alt tfoot {
 @media screen and (max-width: 1680px) {
 
 	.wrapper>.inner {
-		padding: 1em 1em 1em 1em;
+		padding: 3em 5em 5em 7em;
 
 	}
 
@@ -3472,7 +3486,7 @@ table.alt tfoot {
 @media screen and (max-width: 1280px) {
 
 	.wrapper>.inner {
-		width: 100%;
+		width: 90%;
 	}
 
 }
@@ -3481,10 +3495,22 @@ table.alt tfoot {
 
 	.wrapper>.inner {
 		padding: 1em 1em 1em 1em;
+		width: 85%;
 	}
 
 }
 @media screen and (max-width: 360px) {
+
+	.wrapper>.inner {
+		padding: 1em 1em 1em 1em;
+		width: 85%;
+	}
+	.inti{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 160px) {
 
 	.wrapper>.inner {
 		padding: 1em 1em 1em 1em;
@@ -3494,7 +3520,6 @@ table.alt tfoot {
 	}
 
 }
-
 .wrapper.alt {
 	background-color: #082039;
 }
