@@ -3514,6 +3514,8 @@ table.alt tfoot {
 
 	.wrapper>.inner {
 		padding: 1em 1em 1em 1em;
+	
+		width: 100%;
 	}
 	.inti{
 		display: none;
