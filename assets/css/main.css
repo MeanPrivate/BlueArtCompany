@@ -3486,7 +3486,7 @@ table.alt tfoot {
 @media screen and (max-width: 1280px) {
 
 	.wrapper>.inner {
-		width: 90%;
+		width: 100%;
 	}
 
 }
@@ -3495,7 +3495,7 @@ table.alt tfoot {
 
 	.wrapper>.inner {
 		padding: 1em 1em 1em 1em;
-		width: 85%;
+		width: 100%;
 	}
 
 }
@@ -3503,7 +3503,7 @@ table.alt tfoot {
 
 	.wrapper>.inner {
 		padding: 1em 1em 1em 1em;
-		width: 85%;
+		width: 100%;
 	}
 	.inti{
 		display: none;
