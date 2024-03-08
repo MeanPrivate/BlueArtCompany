@@ -3472,6 +3472,7 @@ table.alt tfoot {
 	padding: 3em 5em 5em 7em;
 	max-width: 100%;
 	width: 100em;
+	font-size: 110%;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3549,6 +3550,9 @@ table.alt tfoot {
 
 .wrapper.style3-alt {
 	background-color: #313030;
+}
+.wrapper.style4{
+	background-color: #4d636f;
 }
 
 .wrapper.fullscreen {
